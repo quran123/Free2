@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_run_out_status"
+            android:title="Run Out Status" />
+        <item
+            android:id="@+id/nav_stump"
+            android:title="Stump Out Status" />
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Us" />
+    </group>
+</menu>

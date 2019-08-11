@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <EditText
+        android:id="@+id/e1"
+        android:layout_below="@+id/i1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        />
+    <EditText
+        android:id="@+id/e2"
+        android:layout_below="@+id/e1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+    <Button
+        android:layout_below="@+id/e2"
+        android:id="@+id/b1"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:text="SignUp"
+        />
+    <Button
+        android:layout_below="@+id/e2"
+        android:layout_toRightOf="@+id/b1"
+        android:id="@+id/b2"
+        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:text="Login"
+        />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        />
+</RelativeLayout>

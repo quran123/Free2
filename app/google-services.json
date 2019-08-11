@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70806947797",
+    "firebase_url": "https://free1-eef6e.firebaseio.com",
+    "project_id": "free1-eef6e",
+    "storage_bucket": "free1-eef6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70806947797:android:9def1c1574efaebe",
+        "android_client_info": {
+          "package_name": "com.anushka.free1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70806947797-s8q1ilf6bijb7hcudgpa46rrt385h8ui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anushka.free1",
+            "certificate_hash": "f0b5f8b069ab2045593da1ba68f9a9872ac41b5e"
+          }
+        },
+        {
+          "client_id": "70806947797-1g5oq5p1l3ppohhh0j86rtcdsr443jjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCrkYK6FI3Gj7gZoz-2jxA3M7qv9IL424"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70806947797-7g5uveqh271ktbbaq917loravof4oj57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
